@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MutableArrayCategory.h
 //  WordCounter
 //
 //  Created by Hoàng Thái on 12/17/15.
 //  Copyright © 2015 HOANGTHAI. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ConsoleScreen.h"
 
-@interface ViewController : UIViewController
-
+@interface MutableArrayCategory : ConsoleScreen
 
 @end
-

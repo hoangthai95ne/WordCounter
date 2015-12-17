@@ -8,23 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AB8818F71C226A9300C3A9E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8818F61C226A9300C3A9E8 /* main.m */; };
-		AB8818FA1C226A9300C3A9E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8818F91C226A9300C3A9E8 /* AppDelegate.m */; };
-		AB8818FD1C226A9300C3A9E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8818FC1C226A9300C3A9E8 /* ViewController.m */; };
-		AB8819001C226A9300C3A9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8818FE1C226A9300C3A9E8 /* Main.storyboard */; };
 		AB8819021C226A9300C3A9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8819011C226A9300C3A9E8 /* Assets.xcassets */; };
 		AB8819051C226A9300C3A9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8819031C226A9300C3A9E8 /* LaunchScreen.storyboard */; };
-		AB8819101C226A9300C3A9E8 /* WordCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB88190F1C226A9300C3A9E8 /* WordCounterTests.m */; };
 		AB88191B1C226A9300C3A9E8 /* WordCounterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB88191A1C226A9300C3A9E8 /* WordCounterUITests.m */; };
+		AB8819311C226AD600C3A9E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB88192A1C226AD600C3A9E8 /* AppDelegate.m */; };
+		AB8819321C226AD600C3A9E8 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = AB88192C1C226AD600C3A9E8 /* BootLogic.m */; };
+		AB8819331C226AD600C3A9E8 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AB88192E1C226AD600C3A9E8 /* ConsoleScreen.m */; };
+		AB8819341C226AD600C3A9E8 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8819301C226AD600C3A9E8 /* MainScreen.m */; };
+		AB8819371C226B3900C3A9E8 /* wordCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8819361C226B3900C3A9E8 /* wordCounter.m */; };
+		AB88193A1C226BCD00C3A9E8 /* MutableArrayCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8819391C226BCD00C3A9E8 /* MutableArrayCategory.m */; };
+		AB88193D1C226C2200C3A9E8 /* NSMutableArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = AB88193C1C226C2200C3A9E8 /* NSMutableArray+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AB88190C1C226A9300C3A9E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB8818EA1C226A9300C3A9E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB8818F11C226A9300C3A9E8;
-			remoteInfo = WordCounter;
-		};
 		AB8819171C226A9300C3A9E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB8818EA1C226A9300C3A9E8 /* Project object */;
@@ -37,31 +33,30 @@
 /* Begin PBXFileReference section */
 		AB8818F21C226A9300C3A9E8 /* WordCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8818F61C226A9300C3A9E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB8818F81C226A9300C3A9E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AB8818F91C226A9300C3A9E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB8818FB1C226A9300C3A9E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB8818FC1C226A9300C3A9E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB8818FF1C226A9300C3A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB8819011C226A9300C3A9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8819041C226A9300C3A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB8819061C226A9300C3A9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB88190B1C226A9300C3A9E8 /* WordCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB88190F1C226A9300C3A9E8 /* WordCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordCounterTests.m; sourceTree = "<group>"; };
-		AB8819111C226A9300C3A9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB8819161C226A9300C3A9E8 /* WordCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB88191A1C226A9300C3A9E8 /* WordCounterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordCounterUITests.m; sourceTree = "<group>"; };
 		AB88191C1C226A9300C3A9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8819291C226AD600C3A9E8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB88192A1C226AD600C3A9E8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB88192B1C226AD600C3A9E8 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		AB88192C1C226AD600C3A9E8 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		AB88192D1C226AD600C3A9E8 /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleScreen.h; sourceTree = "<group>"; };
+		AB88192E1C226AD600C3A9E8 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
+		AB88192F1C226AD600C3A9E8 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		AB8819301C226AD600C3A9E8 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		AB8819351C226B3900C3A9E8 /* wordCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordCounter.h; sourceTree = "<group>"; };
+		AB8819361C226B3900C3A9E8 /* wordCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wordCounter.m; sourceTree = "<group>"; };
+		AB8819381C226BCD00C3A9E8 /* MutableArrayCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableArrayCategory.h; sourceTree = "<group>"; };
+		AB8819391C226BCD00C3A9E8 /* MutableArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableArrayCategory.m; sourceTree = "<group>"; };
+		AB88193B1C226C2200C3A9E8 /* NSMutableArray+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Extend.h"; sourceTree = "<group>"; };
+		AB88193C1C226C2200C3A9E8 /* NSMutableArray+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB8818EF1C226A9300C3A9E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB8819081C226A9300C3A9E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +76,8 @@
 		AB8818E91C226A9300C3A9E8 = {
 			isa = PBXGroup;
 			children = (
+				AB8819281C226AB900C3A9E8 /* Core */,
 				AB8818F41C226A9300C3A9E8 /* WordCounter */,
-				AB88190E1C226A9300C3A9E8 /* WordCounterTests */,
 				AB8819191C226A9300C3A9E8 /* WordCounterUITests */,
 				AB8818F31C226A9300C3A9E8 /* Products */,
 			);
@@ -92,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				AB8818F21C226A9300C3A9E8 /* WordCounter.app */,
-				AB88190B1C226A9300C3A9E8 /* WordCounterTests.xctest */,
 				AB8819161C226A9300C3A9E8 /* WordCounterUITests.xctest */,
 			);
 			name = Products;
@@ -101,15 +95,16 @@
 		AB8818F41C226A9300C3A9E8 /* WordCounter */ = {
 			isa = PBXGroup;
 			children = (
-				AB8818F81C226A9300C3A9E8 /* AppDelegate.h */,
-				AB8818F91C226A9300C3A9E8 /* AppDelegate.m */,
-				AB8818FB1C226A9300C3A9E8 /* ViewController.h */,
-				AB8818FC1C226A9300C3A9E8 /* ViewController.m */,
-				AB8818FE1C226A9300C3A9E8 /* Main.storyboard */,
+				AB8819381C226BCD00C3A9E8 /* MutableArrayCategory.h */,
+				AB8819391C226BCD00C3A9E8 /* MutableArrayCategory.m */,
+				AB8819351C226B3900C3A9E8 /* wordCounter.h */,
+				AB8819361C226B3900C3A9E8 /* wordCounter.m */,
 				AB8819011C226A9300C3A9E8 /* Assets.xcassets */,
 				AB8819031C226A9300C3A9E8 /* LaunchScreen.storyboard */,
 				AB8819061C226A9300C3A9E8 /* Info.plist */,
 				AB8818F51C226A9300C3A9E8 /* Supporting Files */,
+				AB88193B1C226C2200C3A9E8 /* NSMutableArray+Extend.h */,
+				AB88193C1C226C2200C3A9E8 /* NSMutableArray+Extend.m */,
 			);
 			path = WordCounter;
 			sourceTree = "<group>";
@@ -122,15 +117,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB88190E1C226A9300C3A9E8 /* WordCounterTests */ = {
-			isa = PBXGroup;
-			children = (
-				AB88190F1C226A9300C3A9E8 /* WordCounterTests.m */,
-				AB8819111C226A9300C3A9E8 /* Info.plist */,
-			);
-			path = WordCounterTests;
-			sourceTree = "<group>";
-		};
 		AB8819191C226A9300C3A9E8 /* WordCounterUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +124,21 @@
 				AB88191C1C226A9300C3A9E8 /* Info.plist */,
 			);
 			path = WordCounterUITests;
+			sourceTree = "<group>";
+		};
+		AB8819281C226AB900C3A9E8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AB8819291C226AD600C3A9E8 /* AppDelegate.h */,
+				AB88192A1C226AD600C3A9E8 /* AppDelegate.m */,
+				AB88192B1C226AD600C3A9E8 /* BootLogic.h */,
+				AB88192C1C226AD600C3A9E8 /* BootLogic.m */,
+				AB88192D1C226AD600C3A9E8 /* ConsoleScreen.h */,
+				AB88192E1C226AD600C3A9E8 /* ConsoleScreen.m */,
+				AB88192F1C226AD600C3A9E8 /* MainScreen.h */,
+				AB8819301C226AD600C3A9E8 /* MainScreen.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,24 +160,6 @@
 			productName = WordCounter;
 			productReference = AB8818F21C226A9300C3A9E8 /* WordCounter.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AB88190A1C226A9300C3A9E8 /* WordCounterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB8819221C226A9300C3A9E8 /* Build configuration list for PBXNativeTarget "WordCounterTests" */;
-			buildPhases = (
-				AB8819071C226A9300C3A9E8 /* Sources */,
-				AB8819081C226A9300C3A9E8 /* Frameworks */,
-				AB8819091C226A9300C3A9E8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB88190D1C226A9300C3A9E8 /* PBXTargetDependency */,
-			);
-			name = WordCounterTests;
-			productName = WordCounterTests;
-			productReference = AB88190B1C226A9300C3A9E8 /* WordCounterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		AB8819151C226A9300C3A9E8 /* WordCounterUITests */ = {
 			isa = PBXNativeTarget;
@@ -208,10 +191,6 @@
 					AB8818F11C226A9300C3A9E8 = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					AB88190A1C226A9300C3A9E8 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = AB8818F11C226A9300C3A9E8;
-					};
 					AB8819151C226A9300C3A9E8 = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = AB8818F11C226A9300C3A9E8;
@@ -232,7 +211,6 @@
 			projectRoot = "";
 			targets = (
 				AB8818F11C226A9300C3A9E8 /* WordCounter */,
-				AB88190A1C226A9300C3A9E8 /* WordCounterTests */,
 				AB8819151C226A9300C3A9E8 /* WordCounterUITests */,
 			);
 		};
@@ -245,14 +223,6 @@
 			files = (
 				AB8819051C226A9300C3A9E8 /* LaunchScreen.storyboard in Resources */,
 				AB8819021C226A9300C3A9E8 /* Assets.xcassets in Resources */,
-				AB8819001C226A9300C3A9E8 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB8819091C226A9300C3A9E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,17 +240,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8818FD1C226A9300C3A9E8 /* ViewController.m in Sources */,
-				AB8818FA1C226A9300C3A9E8 /* AppDelegate.m in Sources */,
+				AB8819371C226B3900C3A9E8 /* wordCounter.m in Sources */,
+				AB8819321C226AD600C3A9E8 /* BootLogic.m in Sources */,
+				AB8819341C226AD600C3A9E8 /* MainScreen.m in Sources */,
+				AB88193A1C226BCD00C3A9E8 /* MutableArrayCategory.m in Sources */,
+				AB8819331C226AD600C3A9E8 /* ConsoleScreen.m in Sources */,
+				AB8819311C226AD600C3A9E8 /* AppDelegate.m in Sources */,
 				AB8818F71C226A9300C3A9E8 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB8819071C226A9300C3A9E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB8819101C226A9300C3A9E8 /* WordCounterTests.m in Sources */,
+				AB88193D1C226C2200C3A9E8 /* NSMutableArray+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +262,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB88190D1C226A9300C3A9E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB8818F11C226A9300C3A9E8 /* WordCounter */;
-			targetProxy = AB88190C1C226A9300C3A9E8 /* PBXContainerItemProxy */;
-		};
 		AB8819181C226A9300C3A9E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AB8818F11C226A9300C3A9E8 /* WordCounter */;
@@ -308,14 +270,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB8818FE1C226A9300C3A9E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB8818FF1C226A9300C3A9E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB8819031C226A9300C3A9E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,30 +383,6 @@
 			};
 			name = Release;
 		};
-		AB8819231C226A9300C3A9E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = WordCounterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.WordCounterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordCounter.app/WordCounter";
-			};
-			name = Debug;
-		};
-		AB8819241C226A9300C3A9E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = WordCounterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.WordCounterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordCounter.app/WordCounter";
-			};
-			name = Release;
-		};
 		AB8819261C226A9300C3A9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,14 +424,6 @@
 			buildConfigurations = (
 				AB8819201C226A9300C3A9E8 /* Debug */,
 				AB8819211C226A9300C3A9E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		AB8819221C226A9300C3A9E8 /* Build configuration list for PBXNativeTarget "WordCounterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB8819231C226A9300C3A9E8 /* Debug */,
-				AB8819241C226A9300C3A9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
